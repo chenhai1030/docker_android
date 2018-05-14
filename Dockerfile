@@ -30,7 +30,7 @@ RUN echo "nameserver 8.8.8.8" >> /etc/resolv.conf
 # android build env
 RUN apt-get update && apt-get install -y \
 	gcc-multilib g++-multilib build-essential \
-	git-core gnupg bison flex gperf pngcrush bc zip curl lzop \
+	git-core gnupg bison flex gperf pngcrush dos2unix bc zip curl lzop \
 	libxml2 libxml2-utils xsltproc squashfs-tools \
 	libesd0-dev libsdl1.2-dev libwxgtk2.8-dev libswitch-perl \
 	libssl1.0.0 libssl-dev lib32readline-gplv2-dev libncurses5-dev
